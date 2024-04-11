@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding: 20px;
+  box-sizing:border-box;
+  }
+  
+  body {
+    text-align: center;
+  
+  }
+  #i1{
+    width:400px;
+    height:580px;
+    background: linear-gradient(180deg,gray 5%,gray 50%, #D3D3D3 90%);
+   
+   margin:20px;
+   display: inline-block;
+   border-radius: 30px 30px 30px 30px;
+  }
+  input{
+     border-radius: 20px 20px 20px 20px;
+  }
+  button{
+   border-radius: 20px 20px 20px 20px;
+  }
+  #res{
+    margin:auto;
+   width: 200px;
+   background:110px;
+   margin:0px;
+   display: inline-block;
+   border-radius: 10px 10px 10px 10px;
+  }
+  input:focus{
+    box-shadow: 0 0 15px rgb(5, 5, 5);
+  }
+  button:hover{
+   transform: scale(1.2) ;
+  color:rgb(0, 0, 255);
+  }

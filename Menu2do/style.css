@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+ body{
+     text-align: center;
+     color: black;
+     background: rgb(174,230,238);
+     background: radial-gradient(circle, rgba(174,230,238,1) 0%, rgba(148,187,233,1) 100%);   
+     }
+     h1{
+         font-size: 60px;
+         text-shadow: 0 0 10px rgb(224, 149, 208);
+     }
+     a{
+         display: block;
+         color: springgreen;
+         text-decoration:none ;
+         width: 150px;
+        height: 50px;
+        margin: 10px auto;
+        background: radial-gradient(circle, rgba(30,45,48,1) 0%, rgba(148,187,233,1) 100%);
+        border-radius: 5px;
+        padding: 10px;
+    }
+    a:hover{
+        box-shadow: rgb(30,45,48);
+        border: solid rgb(197, 3, 3);
+        background: rgb(10, 10, 41);
+        color: red;
+        transform: scale(1,2);
+    }
